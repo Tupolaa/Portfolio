@@ -2,7 +2,7 @@ Tässä on minun portofolioni
 - https://teemutupola.netlify.app/
 
 📌 Projektin kuvaus
-- Tämä on henkilökohtainen portfolio, jossa esittelen taitoni, kokemukseni ja projektini. Sivusto on suunniteltu responsiiviseksi ja tyylikkääksi, jotta se tarjoaa hyvän käyttäjäkokemuksen.
+- Tämä on henkilökohtainen portfolio, jossa esittelen itseäni ja taitojani.
 
 🔥 Ominaisuudet
 - Tietoa minusta: Lyhyt esittely ja taustatiedot
