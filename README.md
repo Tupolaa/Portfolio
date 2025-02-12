@@ -35,5 +35,5 @@ Tämä portfolio on rakennettu seuraavilla teknologioilla:
 Jos haluat ottaa yhteyttä, löydät minut seuraavista kanavista:
 
 - LinkedIn: [[LinkedIn](https://www.linkedin.com/in/teemutupola/)]
-- GitHub: [[github-profiilisi](https://github.com/Tupolaa)]
+- GitHub: [[GitHub](https://github.com/Tupolaa)]
 - Sähköposti: [teemu.tupola@gmail.com]
