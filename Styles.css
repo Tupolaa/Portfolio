@@ -21,13 +21,13 @@ header, nav, footer {
 
 header {
     width: 100%;
-    position: fixed; /* Make it stick */
+    position: fixed;
     top: 0;
     left: 1;
-    z-index: 1000; /* Keep it above other content */
+    z-index: 1000; 
     
     display: flex;
-    justify-content: center; /* Center the nav */
+    justify-content: center;
     align-items: center;
     padding: 15px 0;
     margin-bottom: 30px;
@@ -101,6 +101,41 @@ section {
     margin: 0 auto;
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px;
+}
+.project-box {
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.project-box p{
+    font-size: 15px;
+}
+.project-box:hover {
+    transform: translateY(-10px);
+}
+.project-box a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-box a:hover {
+    text-decoration: underline;
 }
 
 .TaidotLista {
