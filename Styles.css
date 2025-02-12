@@ -5,24 +5,36 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    margin-right: 200px;
-    margin-left: 200px;
-    
+}
+
+.main-container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+header, nav, footer {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #333;
 }
 
 header {
-    background: #333;
-    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
 nav ul {
-    list-style: none;
+    display: flex;
+    justify-content: center;
     padding: 0;
+    list-style: none;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
@@ -33,40 +45,37 @@ nav ul li a {
 
 section {
     padding: 50px 20px;
-    text-align: center; 
+    text-align: center;
 }
+
 .AboutMe {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-    gap: 30px; 
+    gap: 30px;
     max-width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 #photo {
-    max-width: 250px; 
+    max-width: 250px;
     height: auto;
-    border-radius: 50%; 
-    flex-shrink: 0; 
+    border-radius: 50%;
+    flex-shrink: 0;
     margin-right: 100px;
 }
+
 .text-container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     text-align: left;
     max-width: 600px;
-}
-.AboutMe h2 {
-    text-align: left;
-    margin-bottom: 10px; 
-    font-size: 24px;
-    font-weight: bold;
 }
 
-.AboutMe p {
-    max-width: 600px;
-    text-align: left;
+.AboutMe h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .Backround {
@@ -74,14 +83,10 @@ section {
     padding: 20px;
     color: #f5f5f5;
     text-align: center;
-}
-.BrHeader{
-    font-style: italic;
-}
-.Backround p {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .TaidotLista {
@@ -91,22 +96,34 @@ section {
     font-family: monospace;
     font-size: 20px;
 }
+
+.TaidotLista li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-icon {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
 .TaidotListaContainer {
     background-color: #333;
     padding: 20px;
     border-radius: 10px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     width: 90%;
 }
 
-
 footer {
     background: #333;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    max-width: 1500px;
+    border-top: 2px solid #555;
 }
-
