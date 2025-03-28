@@ -21,6 +21,7 @@ Tämä portfolio on rakennettu seuraavilla teknologioilla:
 - Lisää projekteja ja niiden tarkemmat kuvaukset
 - Päivittää koulutus- ja taidot osioita
 - Parantaa ulkoasua
+- Tehdä portofolio käyttäen reactia, javaScriptiä ja JSONia
 
 📩 Yhteystiedot
 Jos haluat ottaa yhteyttä, löydät minut seuraavista kanavista:
