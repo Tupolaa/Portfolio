@@ -22,7 +22,7 @@ Tämä portfolio on rakennettu seuraavilla teknologioilla:
 - Päivittää koulutus- ja taidot osioita
 - Parantaa ulkoasua
 - Tehdä portofolio käyttäen reactia, javaScriptiä ja JSONia
-- [[Päivitetty portfolio](https://tupolaportfolio.netlify.app/)]
+- [[Päivitetty portfolio](https://github.com/Tupolaa/portfolio-react)]
 
 📩 Yhteystiedot
 Jos haluat ottaa yhteyttä, löydät minut seuraavista kanavista:
